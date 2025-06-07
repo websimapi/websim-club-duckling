@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background: radial-gradient(circle, #0077c8 0%, #00589b 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parents-seal {
+    position: absolute;
+    top: -150px;
+    right: -250px;
+    width: 150px;
+    filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3));
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.4));
+}
+
+.websim-logo {
+    width: 200px;
+    margin-bottom: -30px;
+    z-index: 1;
+}
+
+.main-logo {
+    width: 500px;
+}
+
+.start-button {
+    background: #0077be;
+    background: linear-gradient(to bottom, #1ca0e2 0%, #0077be 100%);
+    border: 3px solid #64b4e6;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 70px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+    margin-bottom: 40px;
+    transition: all 0.15s ease-in-out;
+}
+
+.start-button:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.start-button:active {
+    transform: translateY(1px) scale(1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.create-account {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.create-account p {
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.create-account a {
+    color: #a0d8ff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+.version {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
